@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Publications — Michel Henry</title>
+    <title>Research — Michel Henry</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -17,84 +17,101 @@
         <a href="software.html">Software</a>
         <a href="gallery.html">Gallery</a>
     </nav>
+
     <main class="container">
+        <div class="split">
+            <aside class="left-menu" aria-label="Research sections">
+                <strong>Research</strong>
+                <ul>
+                    <li><a href="#immersed">Immersed granular flows</a>
+                        <ul class="sub">
+                            <li><a href="#vans">VANS</a></li>
+                            <li><a href="#force">Fluid-grain interaction force</a></li>
+                            <li><a href="#scales">From unresolved to resolved scale</a></li>
+                            <li><a href="#overlap">An analytic geometry approach</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#pfem">Particle Finite Element Method</a>
+                        <ul class="sub">
+                            <li><a href="#lagrangian">A Lagrangian philosophy</a></li>
+                            <li><a href="#algorithm">The PFEM algorithm</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#nscd">Non‑Smooth Contact Dynamics</a></li>
+                        <ul class="sub">
+                            <li><a href="#rigid">Rigid body dynamics</a></li>
+                            <li><a href="#contact">Contact mechanics</a></li>
+                            <li><a href="#friction">Frictional systems</a></li>
+                            <li><a href="#coupling">Non-linear Gauss-Seidel method</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </aside>
 
-        <section>
+            <section class="research-main">
 
-            <h2 class="section-title">
-                Research Interests
-            </h2>
+                <section id="immersed" class="card">
+                    <h2 class="section-title">Immersed granular flows</h2>
 
-            <div class="research-grid">
-
-
-                <article class="research-card">
-                    <div class="research-content">
-                        <h3>
-                            Immersed Granular Flows
-                        </h3>
-                        <div class="research-media">
-                            <video autoplay muted loop playsinline>
-                                <source src="movies/rayleigh_nice.mp4" type="video/mp4">
-                            </video>
-                        </div>
-                        <p>
-                            Numerical modelling of granular-fluid
-                            interactions, collapse dynamics,
-                            and free-surface phenomena.
-                        </p>
+                    <div class="section-media">
+                        <video autoplay muted loop playsinline controls>
+                            <source src="movies/rayleigh_nice.mp4" type="video/mp4">
+                        </video>
                     </div>
 
-                </article>
+                    <p>Numerical modelling of granular–fluid interactions, collapse dynamics, and free-surface phenomena. Work on PFEM, DEM/FEM coupling, adaptive remeshing and applications to immersed granular collapse and landslides.</p>
 
+                    <h3 id="vans">VANS</h3>
+                    <p>to do...</p>
+                    <h3 id="force">Fluid-grain interaction force</h3>
+                    <p>to do...</p>
+                    <h3 id="scales">From unresolved to resolved scale </h3>
+                    <p>to do...</p>
+                    <h3 id="overlap">An analytic geometry approach</h3>
+                    <p>to do...</p>
+                </section>
 
-                <article class="research-card">
-                    <div class="research-content">
-                        <h3>
-                            Particle Finite Element Method
-                        </h3>
-                        <div class="research-media">
-                            <video autoplay muted loop playsinline>
-                                <!--<source src="movies/lituya.mp4" type="video/mp4">-->
-                                <source src="movies/mill2s_clip_high_resolution.mp4" type="video/mp4">
-                            </video>
-                        </div>
-                        <p>
-                            Adaptive remeshing,
-                            sharp-interface methods,
-                            and multiphysics simulations
-                            for complex free-surface flows.
-                        </p>
+                <section id="pfem" class="card">
+                    <h2 class="section-title">Particle Finite Element Method</h2>
+
+                    <div class="section-media">
+                        <video autoplay muted loop playsinline controls>
+                            <source src="movies/mill2s_clip_high_resolution.mp4" type="video/mp4">
+                        </video>
                     </div>
 
-                </article>
+                    <p>Adaptive remeshing, sharp-interface methods and multiphysics simulations for complex free-surface flows. Emphasis on a Lagrangian viewpoint to handle large deformations.</p>
 
+                    <h3 id="lagrangian">A Lagrangian philosophy</h3>
+                    <p>to do...</p>
+                    <h3 id="algorithm">The PFEM algorithm</h3>
+                    <p>to do...</p>
+                </section>
 
-                <article class="research-card">
-                    <div class="research-content">
-                        <h3>
-                            Non-Smooth Contact Dynamics
-                        </h3>
-                        <div class="research-media">
-                            <video autoplay muted loop playsinline>
-                                <source src="movies/mixer.mp4" type="video/mp4">
-                            </video>
-                        </div>
-                        <p>
-                            Contact mechanics,
-                            frictional systems,
-                            and large-scale DEM/FEM coupling
-                            for particulate materials.
-                        </p>
+                <section id="nscd" class="card">
+                    <h2 class="section-title">Non‑Smooth Contact Dynamics</h2>
 
+                    <div class="section-media">
+                        <video autoplay muted loop playsinline controls>
+                            <source src="movies/mixer.mp4" type="video/mp4">
+                        </video>
                     </div>
 
-                </article>
+                    <p>Contact mechanics, frictional systems, and large-scale DEM/FEM coupling for particulate materials.</p>
 
+                    <h3 id="rigid">Rigid body dynamics</h3>
+                    <p>to do...</p>
+                    <h3 id="contact">Contact mechanics</h3>
+                    <p>to do...</p>
+                    <h3 id="friction">Frictional systems</h3>
+                    <p>to do...</p>
+                    <h3 id="coupling">Non-linear Gauss-Seidel method</h3>
+                    <p>to do...</p>
+                </section>
 
-            </div>
+            </section>
 
-        </section>
+        </div>
 
     </main>
 
