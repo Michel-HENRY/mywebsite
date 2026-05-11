@@ -341,45 +341,149 @@ a:hover {
 }
 
 
-/* ===================================== */
-/* PUBLICATIONS */
-/* ===================================== */
-
 .publication {
-    padding:
-        18px 0;
+
+    padding: 20px 0;
 
     border-bottom:
-        1px solid rgba(0,0,0,0.08);
+        1px solid rgba(49, 66, 82, 0.10);
 }
 
 .publication:last-child {
+
     border-bottom: none;
 }
 
+
+/* ===== LAYOUT ===== */
+
+.pub-main {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 24px;
+}
+
+.pub-info {
+
+    flex: 1;
+}
+
+
+/* ===== TITLE ===== */
+
 .pub-title {
+
     font-size: 1.05rem;
 
-    font-weight: bold;
+    font-weight: 600;
 
     line-height: 1.45;
 
     margin-bottom: 8px;
+
+    color: var(--primary-dark);
 }
+
+
+/* ===== AUTHORS ===== */
 
 .pub-authors {
+
     color: var(--primary-color);
 
-    margin-bottom: 6px;
+    margin-bottom: 8px;
+
+    font-size: 0.96rem;
 }
 
+
+/* ===== META ===== */
+
+.pub-meta {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+
+/* ===== JOURNAL ===== */
+
 .pub-journal {
+
     color: var(--accent-color);
 
     font-style: italic;
 }
 
 
+/* ===== DOI ===== */
+
+.pub-doi {
+    color: #666;
+}
+
+.pub-doi a {
+
+    color: inherit;
+
+    text-decoration: none;
+
+    border-bottom:
+        1px dotted rgba(0,0,0,0.25);
+
+    transition:
+        color 0.25s ease;
+}
+
+.pub-doi a:hover {
+
+    color: var(--accent-color);
+}
+
+
+/* ===== BUTTON ===== */
+
+.pub-link {
+
+    white-space: nowrap;
+
+    padding:
+        10px 16px;
+
+    border-radius: 999px;
+
+    background: rgba(110, 135, 155, 0.10);
+
+    color: var(--primary-dark);
+
+    text-decoration: none;
+
+    font-size: 0.92rem;
+
+    font-weight: 600;
+
+    transition:
+        background 0.25s ease,
+        color 0.25s ease,
+        transform 0.25s ease;
+}
+
+.pub-link:hover {
+
+    background: var(--accent-color);
+
+    color: white;
+
+    transform: translateY(-2px);
+}
 
 /* ===================================== */
 /* FOOTER */
